@@ -9,6 +9,10 @@
 
   .hero {
     max-width: 200px;
+    /* width: 100px; Set this to your desired width */
+    /* height: 100px; /* Ensure height is the same as width */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
   }
 
   span {
@@ -84,7 +88,7 @@
     justify-content: space-evenly;
 
     .hero {
-      max-width: 350px;
+      max-width: 550px;
       width: 350px;
     }
   }

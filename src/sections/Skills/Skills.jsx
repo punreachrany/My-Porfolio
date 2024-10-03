@@ -26,7 +26,6 @@ function Skills() {
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Django" />
-        <SkillList src={checkMarkIcon} skill="Node" />
         <SkillList src={checkMarkIcon} skill="Docker" />
         <SkillList src={checkMarkIcon} skill="Kubernetes" />
       </div>
